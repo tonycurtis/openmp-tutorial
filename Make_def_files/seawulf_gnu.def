@@ -6,6 +6,6 @@ PRE         = ./
 
 CFLAGS	  = $(OPTFLAGS)
 
-OBJ=o
+OBJ	= o
 EXE=
-RM=rm
+RM	= rm -f
