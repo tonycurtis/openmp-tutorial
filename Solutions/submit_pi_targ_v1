@@ -8,3 +8,12 @@
 cd $PBS_O_WORKDIR
 
 ./pi_targ_v1
+#!/bin/sh
+#
+#SBATCH -p gpu
+#SBATCH -N 1
+#SBATCH -n 28
+#SBATCH -t 00:02:00
+#SBATCH -J pi_targ_v1
+
+./pi_targ_v1
