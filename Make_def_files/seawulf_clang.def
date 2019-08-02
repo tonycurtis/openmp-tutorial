@@ -1,0 +1,11 @@
+CC          = clang
+CLINKER     = $(CC)
+OPTFLAGS    = -fopenmp -fopenmp-targets=nvptx64 -O3
+LIBS        = -lm
+PRE         = ./
+
+CFLAGS	  = $(OPTFLAGS)
+
+OBJ	= o
+EXE=
+RM	= rm -f
